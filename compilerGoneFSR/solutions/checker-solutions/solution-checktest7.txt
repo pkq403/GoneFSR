@@ -1,0 +1,18 @@
+checktest7
+Solution >>>
+8: Can't read from float
+9: Can't assign to int
+9: type error. type = int
+10: int redefined. Previous definition on <builtin type>
+12: Unsupported operation int + float
+12: type error. int = type
+<<<<
+My implementation solution
+WARNING: Token(s) {WHILE,IF,LINE_COMMENT,MULTIPLE_COMMENT} defined, but not used
+WARNING: There are 4 unused tokens
+8: Can't read from float
+9: Can't assign to int
+9: type error. type = int
+10: int redefined. Previous definition on <builtin type>
+12: Unsupported operation int + float
+12: type error. int = type

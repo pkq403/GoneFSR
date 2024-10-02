@@ -1,0 +1,12 @@
+checktest0
+Solution >>>
+28: y undefined
+31: z undefined
+31: type error. type = int
+<<<<
+My implementation solution
+WARNING: Token(s) {IF,MULTIPLE_COMMENT,LINE_COMMENT,WHILE} defined, but not used
+WARNING: There are 4 unused tokens
+28: Can't read from y
+31: Can't assign to z
+31: type error. type = int

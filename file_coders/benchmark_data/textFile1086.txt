@@ -1,0 +1,9 @@
+Dada su importancia, se han hecho muchos esfuerzos para encontrar algoritmos que decidan algún problema de NP en tiempo polinómico. Sin embargo, pareciera que para algunos problemas de NP (los del conjunto NP-completo) no es posible encontrar un algoritmo mejor que simplemente realizar una búsqueda exhaustiva.
+
+En el artículo de 2002, "PRIMES is in P", Manindra Agrawal con sus estudiantes1,2 encontró un algoritmo que trabaja en tiempo polinómico para el problema de saber si un número es primo. Anteriormente se sabía que ese problema estaba en NP, si bien no en NP-completo, ahora se sabe que también está en P.
+En particular, el mayor problema en ciencias de la computación consiste en responder al siguiente problema de decisión: ¿P = NP?
+Los hombres y mujeres de ciencia se caracterizan
+hoy porque no trabajan con base en “objetos” –y por
+derivación, tampoco con “temas”, “campos” y demás–, sino, mucho mejor aún, a partir de problemas.
+Este constituye, con seguridad, el rasgo más fuerte
+de contraste entre la ciencia clásica y la ciencia de 

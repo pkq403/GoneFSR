@@ -1,0 +1,18 @@
+irtest0
+Solution >>>
+('MOVI', 3, 'R1')
+('PRINTI', 'R1')
+('MOVF', 3.5, 'R2')
+('PRINTF', 'R2')
+('MOVB', 97, 'R3')
+('PRINTB', 'R3')
+<<<<
+My implementation solution
+WARNING: Token(s) {WHILE,LINE_COMMENT,MULTIPLE_COMMENT,IF} defined, but not used
+WARNING: There are 4 unused tokens
+('MOVI', 3, 'R1')
+('PRINTI', 'R1')
+('MOVF', 3.5, 'R2')
+('PRINTF', 'R2')
+('MOVB', 97, 'R3')
+('PRINTB', 'R3')

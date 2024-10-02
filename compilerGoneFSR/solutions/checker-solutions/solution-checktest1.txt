@@ -1,0 +1,10 @@
+checktest1
+Solution >>>
+11: a redefined. Previous definition on 8
+12: x redefined. Previous definition on 9
+<<<<
+My implementation solution
+WARNING: Token(s) {IF,MULTIPLE_COMMENT,LINE_COMMENT,WHILE} defined, but not used
+WARNING: There are 4 unused tokens
+11: a redefined. Previous definition on 8
+12: x redefined. Previous definition on 9

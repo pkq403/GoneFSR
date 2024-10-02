@@ -1,0 +1,24 @@
+checktest5
+Solution >>>
+10: Unsupported operation int + float
+11: Unsupported operation float + int
+13: Unsupported operation char + char
+14: Unsupported operation char - char
+15: Unsupported operation char * char
+16: Unsupported operation char / char
+17: Unsupported operation - char
+18: Unsupported operation + char
+28: Unsupported operation int + float
+<<<<
+My implementation solution
+WARNING: Token(s) {MULTIPLE_COMMENT,WHILE,IF,LINE_COMMENT} defined, but not used
+WARNING: There are 4 unused tokens
+10: Unsupported operation int + float
+11: Unsupported operation float + int
+13: Unsupported operation char + char
+14: Unsupported operation char - char
+15: Unsupported operation char * char
+16: Unsupported operation char / char
+17: Unsupported operation - char
+18: Unsupported operation + char
+28: Unsupported operation int + float

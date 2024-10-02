@@ -1,0 +1,70 @@
+llvmgen-test4
+Solution >>>
+; ModuleID = "module"
+target triple = "unknown-unknown-unknown"
+target datalayout = ""
+
+define void @"main"()
+{
+entry:
+  store i32 42, i32* @"x"
+  %"R2" = load i32, i32* @"x"
+  %"R4" = add i32 %"R2", 10
+  store i32 %"R4", i32* @"y"
+  store double 0x400921f9f01b866e, double* @"pi"
+  %"R7" = load double, double* @"pi"
+  %"R8" = fmul double 0x4000000000000000, %"R7"
+  store double %"R8", double* @"z"
+  store i8 97, i8* @"a"
+  %"R10" = load i8, i8* @"a"
+  store i8 %"R10", i8* @"b"
+  ret void
+}
+
+declare void @"_print_int"(i32 %".1")
+
+declare void @"_print_float"(double %".1")
+
+declare void @"_print_byte"(i8 %".1")
+
+@"x" = global i32 0
+@"y" = global i32 0
+@"pi" = global double              0x0
+@"z" = global double              0x0
+@"a" = global i8 0
+@"b" = global i8 0
+<<<<
+My implementation solution
+; ModuleID = "module"
+target triple = "unknown-unknown-unknown"
+target datalayout = ""
+
+define void @"main"()
+{
+entry:
+  store i32 42, i32* @"x"
+  %"R2" = load i32, i32* @"x"
+  %"R4" = add i32 %"R2", 10
+  store i32 %"R4", i32* @"y"
+  store double 0x400921f9f01b866e, double* @"pi"
+  %"R7" = load double, double* @"pi"
+  %"R8" = fmul double 0x4000000000000000, %"R7"
+  store double %"R8", double* @"z"
+  store i8 97, i8* @"a"
+  %"R10" = load i8, i8* @"a"
+  store i8 %"R10", i8* @"b"
+  ret void
+}
+
+declare void @"_print_int"(i32 %".1")
+
+declare void @"_print_float"(double %".1")
+
+declare void @"_print_byte"(i8 %".1")
+
+@"x" = global i32 0
+@"y" = global i32 0
+@"pi" = global double              0x0
+@"z" = global double              0x0
+@"a" = global i8 0
+@"b" = global i8 0

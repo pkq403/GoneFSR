@@ -1,0 +1,6 @@
+checktest3
+Solution >>>
+<<<<
+My implementation solution
+WARNING: Token(s) {LINE_COMMENT,MULTIPLE_COMMENT,WHILE,IF} defined, but not used
+WARNING: There are 4 unused tokens

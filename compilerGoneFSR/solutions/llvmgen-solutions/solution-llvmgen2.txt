@@ -1,0 +1,56 @@
+llvmgen-test2
+Solution >>>
+; ModuleID = "module"
+target triple = "unknown-unknown-unknown"
+target datalayout = ""
+
+define void @"main"()
+{
+entry:
+  %"R3" = add i32 1, 2
+  %"R5" = sub i32 0, %"R3"
+  call void @"_print_int"(i32 %"R5")
+  %"R8" = add i32 3, 4
+  call void @"_print_int"(i32 %"R8")
+  %"R11" = fadd double 0x4014000000000000, 0x4018000000000000
+  %"R13" = fsub double              0x0, %"R11"
+  call void @"_print_float"(double %"R13")
+  %"R16" = fadd double 0x401c000000000000, 0x4020000000000000
+  call void @"_print_float"(double %"R16")
+  ret void
+}
+
+declare void @"_print_int"(i32 %".1")
+
+declare void @"_print_float"(double %".1")
+
+declare void @"_print_byte"(i8 %".1")
+
+<<<<
+My implementation solution
+; ModuleID = "module"
+target triple = "unknown-unknown-unknown"
+target datalayout = ""
+
+define void @"main"()
+{
+entry:
+  %"R3" = add i32 1, 2
+  %"R5" = sub i32 0, %"R3"
+  call void @"_print_int"(i32 %"R5")
+  %"R8" = add i32 3, 4
+  call void @"_print_int"(i32 %"R8")
+  %"R11" = fadd double 0x4014000000000000, 0x4018000000000000
+  %"R13" = fsub double              0x0, %"R11"
+  call void @"_print_float"(double %"R13")
+  %"R16" = fadd double 0x401c000000000000, 0x4020000000000000
+  call void @"_print_float"(double %"R16")
+  ret void
+}
+
+declare void @"_print_int"(i32 %".1")
+
+declare void @"_print_float"(double %".1")
+
+declare void @"_print_byte"(i8 %".1")
+

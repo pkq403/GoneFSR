@@ -1,0 +1,10 @@
+checktest2
+Solution >>>
+47: Can't assign to a
+47: type error. type = int
+<<<<
+My implementation solution
+WARNING: Token(s) {MULTIPLE_COMMENT,IF,WHILE,LINE_COMMENT} defined, but not used
+WARNING: There are 4 unused tokens
+47: Cant assign to a
+47: type error. type = int

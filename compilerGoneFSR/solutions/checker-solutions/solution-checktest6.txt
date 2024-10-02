@@ -1,0 +1,12 @@
+checktest6
+Solution >>>
+26: type error. int = float
+28: type error. int = float
+29: unknown type name spam
+<<<<
+My implementation solution
+WARNING: Token(s) {IF,WHILE,MULTIPLE_COMMENT,LINE_COMMENT} defined, but not used
+WARNING: There are 4 unused tokens
+26: type error. int = float
+28: type error. int = float
+29: unknown type name spam

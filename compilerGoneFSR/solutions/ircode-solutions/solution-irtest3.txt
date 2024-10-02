@@ -1,0 +1,36 @@
+irtest3
+Solution >>>
+('MOVI', 2, 'R1')
+('VARI', 'x')
+('STOREI', 'R1', 'x')
+('MOVF', 3.14159, 'R2')
+('VARF', 'pi')
+('STOREF', 'R2', 'pi')
+('MOVB', 97, 'R3')
+('VARB', 'a')
+('STOREB', 'R3', 'a')
+('LOADI', 'x', 'R4')
+('PRINTI', 'R4')
+('LOADF', 'pi', 'R5')
+('PRINTF', 'R5')
+('LOADB', 'a', 'R6')
+('PRINTB', 'R6')
+<<<<
+My implementation solution
+WARNING: Token(s) {MULTIPLE_COMMENT,WHILE,LINE_COMMENT,IF} defined, but not used
+WARNING: There are 4 unused tokens
+('MOVI', 2, 'R1')
+('VARI', 'x')
+('STOREI', 'R1', 'x')
+('MOVF', 3.14159, 'R2')
+('VARF', 'pi')
+('STOREF', 'R2', 'pi')
+('MOVB', 97, 'R3')
+('VARB', 'a')
+('STOREB', 'R3', 'a')
+('LOADI', 'x', 'R4')
+('PRINTI', 'R4')
+('LOADF', 'pi', 'R5')
+('PRINTF', 'R5')
+('LOADB', 'a', 'R6')
+('PRINTB', 'R6')

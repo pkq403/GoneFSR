@@ -1,0 +1,1 @@
+En matemáticas puras, la hipótesis de Riemann, formulada por primera vez por Bernhard Riemann en 1859, es una conjetura sobre la distribución de los ceros de la función zeta de Riemann ζ(s).

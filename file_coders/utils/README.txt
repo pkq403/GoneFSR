@@ -1,0 +1,1 @@
+COPIA DE LA CARPETA minimal_FSR

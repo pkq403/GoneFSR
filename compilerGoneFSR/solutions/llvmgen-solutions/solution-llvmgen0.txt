@@ -1,0 +1,42 @@
+llvmgen-test0
+Solution >>>
+; ModuleID = "module"
+target triple = "unknown-unknown-unknown"
+target datalayout = ""
+
+define void @"main"()
+{
+entry:
+  call void @"_print_int"(i32 3)
+  call void @"_print_float"(double 0x400c000000000000)
+  call void @"_print_byte"(i8 97)
+  ret void
+}
+
+declare void @"_print_int"(i32 %".1")
+
+declare void @"_print_float"(double %".1")
+
+declare void @"_print_byte"(i8 %".1")
+
+<<<<
+My implementation solution
+; ModuleID = "module"
+target triple = "unknown-unknown-unknown"
+target datalayout = ""
+
+define void @"main"()
+{
+entry:
+  call void @"_print_int"(i32 3)
+  call void @"_print_float"(double 0x400c000000000000)
+  call void @"_print_byte"(i8 97)
+  ret void
+}
+
+declare void @"_print_int"(i32 %".1")
+
+declare void @"_print_float"(double %".1")
+
+declare void @"_print_byte"(i8 %".1")
+
