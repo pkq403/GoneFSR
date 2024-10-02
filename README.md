@@ -1,9 +1,6 @@
 # Version del compilador Gone (Statically Compiled Language) escrita por Pedro Castro
 
-Escribi este compilador basandome en la guia del repositorio de Git escrita por David Beazley.
-
-## Introduccion
-Primero hice los ejercicios que se recomendaban hacer antes del programa se encuentran en la directorio /exercises. Una vez complete todos los ejercicios empece con el projecto del compilador. Las cinco primeras partes es decir hasta que haces el programa basico de generacion de bytecode llvm (fichero _llvmgen.py_) son bastante guiadas. Despues toda la implementacion de booleanos, operaciones logicas binarias, flujos condicionales (if, ifelse, while), ... no tiene ningun tipo de guía.
+Escribi este compilador basandome en la guia del lenguaje BeGone escrita por David Beazley. Despues añadi funcionalidades adicionales como funciones de codificacion y decodificacion basandome en registros de desplazamiento no lineal.
 
 ## Como funciona
 
@@ -154,7 +151,7 @@ func NOMBRE_FUNCION(*ARGUMENTOS) RETURN_DATATYPE {
 ```
 
 ## Como usar Gone
-Para usar Gone solo tienes que escribir un fichero nombreFichero.g con tu programa. Y despues ejecutar esta instruccion dentro de este proyecto
+Para usar Gone solo tienes que escribir un fichero nombreFichero.g con tu programa. Y despues ejecutar esta instruccion dentro del directorio *compilerGoneFSR* del repositorio
 ```
 python3 -m gone.compile tu_fichero.g
 ```
@@ -166,15 +163,18 @@ Para ejecutar tu programa tan solo tendras que hacer
 ./a.out
 ```
 
+## Uso de las funciones coder y decoder (NLFSR *non linear feedback shift register*)
+Para poder usar estas funciones de manera nativa en GoneFSR, necesitareis ejecutar un script de instalacion que se encuentra en el directorio del repositorio *compilerGoneFSR/installer/install.sh*. Este instalara los ejecutables necesarios para el uso del decodificador y el codificador.
 ## Testing
-El compilador lo he intentado probar de muchas maneras y con muchos programas ademas de los que ya venian en el propio proyecto. Los programas mas complejos que venian en el programa para hacer testing son los que estan guardados en el directorio /programs.
+El compilador lo he intentado probar de muchas maneras y con muchos programas. Los programas mas complejos estan guardados en el directorio /programs.
 
 Tambien estan los tests unitarios en la carpeta /Tests que ayudan a ver el comportamiento del compilador en cada etapa.
 
 ## Mas informacion sobre el proyecto
-En el directorio cheking_experiments tengo algunos experimentos que he ido haciendo para comprobar comportamientos.
+En el directorio cheking\_experiments tengo algunos experimentos que he ido haciendo para comprobar comportamientos.
 
-En el directorio automation_scripts tengo scripts que lanzan automaticamente algunos tests y devuelven los resultados en el directorio solutions.
+En el directorio automation\_scripts tengo scripts que lanzan automaticamente algunos tests y devuelven los resultados en el directorio solutions.
 
-## Conclusion 
-Ha sido muy divertido hacer el compilador, se que tiene muchas cosas que mejorar.
+## Otros directorios
+Los directorios que no forman parte del compilador contienen pruebas de los experimentos que hice durante el desarrollo de las funciones de registros de desplazamiento no lineales.
+Podeis consultarlo si teneis curiosidad.
